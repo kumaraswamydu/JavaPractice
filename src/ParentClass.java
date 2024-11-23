@@ -1,7 +1,6 @@
 public class ParentClass {
     // Superclass
-        void sound() {
-            System.out.println("Parent");
+        public void addition(int a , int b) {
+            System.out.println(a+b+"parent");
         }
     }
-

@@ -8,8 +8,8 @@ public class RepeatedWordsCount {
 //        repeatedWordsCount.repetedwordswithmap(input);
         repeatedWordsCount.repetedwordswithoutmap(input);
     }
-    public void repetedwordswithoutmap(String input) {
 
+    public void repetedwordswithoutmap(String input) {
         int count;
         String words[] = input.toLowerCase().split(" ");
 
@@ -23,15 +23,13 @@ public class RepeatedWordsCount {
                 }
             }
             //Displays the duplicate word if count is greater than 1
-            if (count > 1  && !words[i].equals("0")){
+            if (count > 1 && !words[i].equals("0")) {
                 System.out.println(words[i] + " " + count);
-                }
+            }
         }
     }
 
-
     public void repetedwordswithmap(String input) {
-
         // Normalize the string by converting it to lower case
         String normalizedInput = input.toLowerCase();
         // Split the string into words using a regular expression
@@ -54,6 +52,3 @@ public class RepeatedWordsCount {
         }
     }
 }
-
-
-

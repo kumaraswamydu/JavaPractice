@@ -1,7 +1,6 @@
     public class ChildClass extends ParentClass {
-        void sound() {
-            super.sound();
-            System.out.println("Child");
+         public void addition(int a, int b) {
+            super.addition(a, b);
+            System.out.println(a+b+"child ");
         }
     }
-
